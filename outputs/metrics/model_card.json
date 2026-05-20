@@ -1,0 +1,32 @@
+{
+  "model_name": "XGBoostAUC_cuda",
+  "artifact": "models/modelo_recomendado_xgboost_auc.joblib",
+  "source_artifact": "models/XGBoostAUC_cuda.joblib",
+  "target": "cancer",
+  "positive_class": 1,
+  "primary_metric": "f1_positive",
+  "threshold_selected_on": "validation",
+  "threshold": 0.66,
+  "test_metrics": {
+    "precision_positive": 0.5778003041054233,
+    "recall_positive": 0.5909797822706065,
+    "f1_positive": 0.5843157355202461,
+    "auc_roc": 0.8481927299200919,
+    "auc_pr": 0.6244013604978,
+    "accuracy": 0.8378162183781622
+  },
+  "confusion_matrix_test": {
+    "tn": 7239,
+    "fp": 833,
+    "fn": 789,
+    "tp": 1140
+  },
+  "feature_view": "safe_all",
+  "seed": 42,
+  "rows_joined": 50001,
+  "limitations": [
+    "synthetic dataset",
+    "requires temporal and external clinical validation",
+    "excludes vive and post-diagnosis cost/usage variables for leakage control"
+  ]
+}

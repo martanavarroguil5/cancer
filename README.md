@@ -23,9 +23,19 @@ para la evaluacion final.
 
 ## Instalacion
 
+Para desplegar el dashboard en Streamlit Cloud, usa las dependencias minimas de
+la app:
+
+```bash
+pip install -r requirements.txt
+```
+
+Para regenerar el pipeline completo y entrenar modelos localmente con CUDA, usa
+el entorno de entrenamiento:
+
 ```bash
 source scripts/activate_cuda.sh
-pip install -r requirements.txt
+pip install -r requirements-training.txt
 ```
 
 ## Validacion

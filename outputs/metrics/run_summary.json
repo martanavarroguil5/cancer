@@ -1,0 +1,48 @@
+{
+  "mode": "full",
+  "seed": 42,
+  "missing_csvs": [],
+  "rows_joined": 50001,
+  "columns_joined": 38,
+  "feature_view": "safe_all",
+  "primary_selection_metric": "F1 cancer=1",
+  "modeling_columns": 38,
+  "audit_rows": 6,
+  "eda_rows": 38,
+  "feature_signal_rows": 37,
+  "feature_counts": {
+    "numeric": 10,
+    "binary": 14,
+    "categorical": 6,
+    "engineered": 0,
+    "excluded": 8
+  },
+  "ml_complex_models_evaluated": 8,
+  "models_evaluated": [
+    "XGBoostAUC_cuda",
+    "ValidationSoftVoting",
+    "XGBoostF1Balanced_cuda",
+    "GradientBoosting",
+    "HistGradientBoostingRegularized",
+    "XGBoost_cuda",
+    "HistGradientBoosting",
+    "LogisticRegression_baseline",
+    "MLP",
+    "RandomForest",
+    "ExtraTrees"
+  ],
+  "best_model_by_f1": "XGBoostAUC_cuda",
+  "best_ml_by_f1": "XGBoostAUC_cuda",
+  "mlp_threshold_from_validation": 0.64,
+  "model_thresholds_from_validation": true,
+  "ensemble_members": [
+    "XGBoostAUC_cuda",
+    "GradientBoosting",
+    "HistGradientBoostingRegularized"
+  ],
+  "threshold_search_rows": 891,
+  "bootstrap_interval_rows": 55,
+  "pdf_path": "/home/jorgesrab/ai/marta/cancer/outputs/reports/presentacion_final_cancer_5_diapositivas.pdf",
+  "pdf_pages": 5,
+  "recommended_model_artifact": "models/modelo_recomendado_xgboost_auc.joblib"
+}

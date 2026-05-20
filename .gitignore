@@ -9,3 +9,11 @@ output/
 tmp/
 models/
 .venv-autogluon/
+
+# Streamlit Cloud needs these precomputed dashboard artifacts.
+!outputs/
+outputs/*
+!outputs/metrics/
+!outputs/metrics/**
+!outputs/figures/
+!outputs/figures/**

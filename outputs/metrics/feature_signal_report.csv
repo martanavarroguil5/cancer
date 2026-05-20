@@ -1,0 +1,38 @@
+column,dtype,missing_pct,unique,known_leakage,policy_post_diagnosis_risk,policy_low_signal_or_proxy,metadata_caution_comorbidity,metadata_optional_or_proxy,numeric_corr_with_target,numeric_abs_auc,categorical_rate_spread,level_target_rates
+paciente_id,str,0.0,50001,False,False,False,False,False,,,,
+glucosa,float64,0.0,8773,False,False,False,False,False,0.15106305418949498,0.6011429390450495,,
+colesterol,float64,0.0,13242,False,False,False,False,False,0.08740518140408532,0.5632412502426627,,
+trigliceridos,float64,0.0,16571,False,False,False,False,False,0.10856480482119879,0.5774368045060958,,
+hemoglobina,float64,0.0,912,False,False,False,False,False,-0.0733774938007981,0.5476066329905223,,
+leucocitos,float64,0.0,1123,False,False,False,False,False,0.09828423369786007,0.5659497706014057,,
+plaquetas,float64,0.0,19681,False,False,True,False,False,-0.003459271895278125,0.5021314319162281,,
+creatinina,float64,0.0,161,False,False,True,False,False,-0.0009104897233668539,0.5000005254328675,,
+diabetes,int64,0.0,2,False,False,False,True,True,0.07595670779332407,0.5457460405203345,,
+hipertension,int64,0.0,2,False,False,False,True,True,0.10065773993620837,0.5633666038795373,,
+obesidad,int64,0.0,2,False,False,False,True,True,0.19767763469184582,0.619809023883244,,
+enfermedad_cardiaca,int64,0.0,2,False,False,True,True,True,0.01285538148298059,0.506065579037246,,
+asma,int64,0.0,2,False,False,True,True,True,0.0029747110571827777,0.5010319591445601,,
+epoc,int64,0.0,2,False,False,False,True,True,0.03098273959839136,0.5113378623573902,,
+mut_BRCA1,int64,0.0,2,False,False,False,False,False,0.21857018257635438,0.5755016288316119,,
+mut_TP53,int64,0.0,2,False,False,False,False,False,0.18711317349137277,0.5771367579298765,,
+mut_EGFR,int64,0.0,2,False,False,False,False,False,0.09964249876871915,0.5375761478123385,,
+mut_KRAS,int64,0.0,2,False,False,False,False,False,0.16651351661906424,0.5709035388296739,,
+mut_PIK3CA,int64,0.0,2,False,False,False,False,False,0.06764425478227844,0.5245121498424158,,
+mut_ALK,int64,0.0,2,False,False,True,False,False,-0.0004899038981183538,0.5001342230464527,,
+mut_BRAF,int64,0.0,2,False,False,False,False,False,0.04784403371161743,0.5153791785132293,,
+tipo_seguro,str,0.0,3,False,False,True,False,True,,,0.1810879542577355,Privado=0.3194 n=11943; Mixto=0.1953 n=9952; Publico=0.1383 n=28106
+coste_total,float64,0.0,48205,False,True,False,False,False,0.8907447169941368,0.9925067235109147,,
+coste_farmaco,float64,0.0,48315,False,True,False,False,False,0.853081298317032,0.9894177370843282,,
+num_ingresos,int64,0.0,10,False,True,False,False,False,0.643515271541872,0.877367812472768,,
+dias_hospital,int64,0.0,161,False,True,False,False,False,0.877651095851253,0.9899420779764575,,
+fumador,int64,0.0,2,False,False,False,False,False,0.21669254301429816,0.6333027784057564,,
+alcohol,int64,0.0,1,False,False,False,False,False,,,,
+actividad_fisica,str,0.0,3,False,False,False,False,False,,,0.11714445333557877,Baja=0.2402 n=22569; Moderada=0.1719 n=17392; Alta=0.1230 n=10040
+vive,int64,0.0,2,True,False,False,False,False,-0.3542141532283622,0.6972629775417813,,
+edad,int64,0.0,71,False,False,False,False,False,0.05423086773419914,0.5418494059658979,,
+nivel_educativo,str,0.0,4,False,False,True,False,True,,,0.007523085307633376,Sin estudios=0.1973 n=5109; Universitario=0.1934 n=12383; Secundaria=0.1934 n=19931; Primaria=0.1898 n=12578
+nivel_ingresos,str,0.0,4,False,False,True,False,True,,,0.0031324576735121956,Medio=0.1940 n=19948; Muy bajo=0.1933 n=5975; Alto=0.1932 n=9880; Bajo=0.1909 n=14198
+zona,str,0.0,3,False,False,True,False,True,,,0.00246491267619392,Rural=0.1945 n=9944; Semiurbana=0.1935 n=12649; Urbana=0.1920 n=27408
+estado_civil,str,0.0,4,False,False,True,False,True,,,0.012766839482973025,Viudo=0.2004 n=6028; Soltero=0.1929 n=12428; Casado=0.1927 n=23929; Divorciado=0.1876 n=7616
+num_hijos,int64,0.0,9,False,False,True,False,True,-0.0004219334395013912,0.5000284941344786,,
+distancia_hospital_km,float64,0.0,1459,False,False,True,False,True,0.0010250257850469495,0.502723454728144,,

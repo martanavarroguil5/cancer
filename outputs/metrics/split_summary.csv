@@ -1,0 +1,5 @@
+split,rows,negatives,positives,positive_prevalence
+train,40000,32285,7715,0.192875
+test,10001,8072,1929,0.19288071192880712
+train_inner,32000,25828,6172,0.192875
+valid,8000,6457,1543,0.192875

@@ -1,0 +1,7 @@
+collection,present,rows,columns,duplicate_paciente_id,missing_values_total,same_ids_as_first_csv,ids_only_in_first,ids_only_in_collection
+CASOCANCER_01_BIOQUIMICOS.csv,True,50001,8,0,0,True,0,0
+CASOCANCER_02_CLINICOS.csv,True,50001,8,0,0,True,0,0
+CASOCANCER_03_GENETICOS.csv,True,50001,8,0,0,True,0,0
+CASOCANCER_04_ECONOMICOS.csv,True,50001,6,0,0,True,0,0
+CASOCANCER_05_GENERALES.csv,True,50001,5,0,0,True,0,0
+CASOCANCER_06_SOCIODEMOGRAFICOS.csv,True,50001,8,0,0,True,0,0
