@@ -1,0 +1,4 @@
+# Optional isolated environment for the AutoGluon ceiling benchmark.
+# Keep this separate from requirements.txt because AutoGluon pins a different
+# scientific stack from the TensorFlow/CUDA project environment.
+autogluon.tabular[all]==1.5.0
